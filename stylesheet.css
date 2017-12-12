@@ -3,41 +3,52 @@
 #C8D7E2 TEXT light blue
 #99B1C3 TEXT medium blue
 #304F6E dark blue */
+/*--------------FULL HTML AND BODY----------------*/
 * {
 	margin: 0 auto;
-
+}
+body {
+	min-width: 600px;
+	font-family: 'Quicksand', sans-serif;
 
 }
 
-
+/*---------------HEADER AND NAVBAR----------------*/
 .header{
 	width: 100%;
 	text-align: center;
 	background-color: #304F6E;
-	height: 133px;
+	height: 130px;
 	color: white;
 	font-size: 27px;
 	margin-top: 0px;
 	padding-top: 0px;
-	
-
-
 }
 
 .header h1{
 	padding-top: 15px;
-	padding-bottom: 1px;
+	padding-bottom: 4px;
 	border-bottom: solid 1px #DF5227;
 	text-shadow: 1px 1px 1px #DF5227 ;
+}
+
+nav{
+	padding-top:6px;
+}
+
+nav input{
+	float: right;
+	margin-right: 40px;
+	margin-top: 6px;
+	width: 120px;
 }
 
 li{
 	display: inline;
 	flex-wrap: wrap;
 	flex-direction: row;
-	color: #C8D7E2;
+	color:  #DF5227 ;
 	padding-left: 60px;
-
 }
 
 a{
@@ -45,42 +56,32 @@ a{
 	text-shadow: .4px 1px 1px #DF5227 ;
 }
 
-
 a:hover{
-	color: #DF5227;
+	color: #DF5227 ;
 	text-decoration: underline;
 }
 
 a:visited{
 	color: #C8D7E2;
-
 }
+/*---------------HOMEPAGE BODY----------------*/
 
-
-nav{
-	padding-top:6px;
-}
-body {
-	min-width: 600px;
-	font-family: 'Damion', cursive;
-
-}
 .teamphoto{
 	background-image: 
 }
-
+/*---------------CONTACT PAGE----------------*/
 #Contact{
 	background-color: #99B1C3;
 	padding-left: 90px;
 	font-size: 26px;
 	font-weight: 100;
 	text-align: center;
-	
-
 }
+
 #contacttext{
 	float: left;
 }
+
 #contactheader{
 	font-size: 26px;
 	padding-bottom: 10px;
@@ -88,16 +89,36 @@ body {
 	color: #DF5227 ;
 	text-shadow: .4px 1px 1px black;
 }
+
 img {
 	padding: 20px;
+}
+
+/*---------------VIKI PAGE----------------*/
+#vikisection{
 
 }
 
+#vikiheader{
+	
+}
+
+/*---------------LORAND PAGE----------------*/
+
+
+/*---------------TANJA PAGE----------------*/
+
+
+/*---------------ATRA PAGE----------------*/
+
+
+
+/*---------------FOOTER-------------------*/
 footer{
 	background-color: #304F6E;
 	height: 130px;
 	text-align: center;
-	padding-top: 10px;
+	padding-top: px;
 	color: #C8D7E2;
 	width: 100%;
 }
