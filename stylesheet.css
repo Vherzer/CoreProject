@@ -14,7 +14,7 @@
 	width: 100%;
 	text-align: center;
 	background-color: #304F6E;
-	height: 130px;
+	height: 133px;
 	color: white;
 	font-size: 27px;
 	margin-top: 0px;
@@ -28,6 +28,7 @@
 	padding-top: 15px;
 	padding-bottom: 1px;
 	border-bottom: solid 1px #DF5227;
+	text-shadow: 1px 1px 1px #DF5227 ;
 }
 
 li{
@@ -41,6 +42,7 @@ li{
 
 a{
 	text-decoration: none;
+	text-shadow: .4px 1px 1px #DF5227 ;
 }
 
 
@@ -51,6 +53,7 @@ a:hover{
 
 a:visited{
 	color: #C8D7E2;
+
 }
 
 
@@ -66,10 +69,33 @@ body {
 	background-image: 
 }
 
+#Contact{
+	background-color: #99B1C3;
+	padding-left: 90px;
+	font-size: 26px;
+	font-weight: 100;
+	text-align: center;
+	
+
+}
+#contacttext{
+	float: left;
+}
+#contactheader{
+	font-size: 26px;
+	padding-bottom: 10px;
+	padding-top: 110px;
+	color: #DF5227 ;
+	text-shadow: .4px 1px 1px black;
+}
+img {
+	padding: 20px;
+
+}
 
 footer{
 	background-color: #304F6E;
-	height: 90px;
+	height: 130px;
 	text-align: center;
 	padding-top: 10px;
 	color: #C8D7E2;
